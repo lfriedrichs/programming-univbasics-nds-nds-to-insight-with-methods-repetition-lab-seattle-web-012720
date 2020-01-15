@@ -40,6 +40,7 @@ def total_gross(source)
   running_total = 0
   while array_index < array_Directors.size do 
     running_total += hash_directors_total[array_Directors[array_index]]
+    array_index += 1
   end
   running_total
 end
